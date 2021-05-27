@@ -27,3 +27,5 @@ Enable serial port communication
 sudo raspi-config
 Set serial port hardware to enabled
 
+GPIO connection between flight controller and companion computer 
+<img src="https://github.com/ducati-748/uav_pollination/blob/74f2aedb5f56246882d6cd24d199de498024006c/images/Connecting-Pixhawk-to-Raspberry-Pi-3.jpg">
