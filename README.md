@@ -11,6 +11,19 @@ Below is a parts list of the general components needed, note these can be replac
 Mounting of the companion computer. Raspberry pi 3 b+ (note other models may be used including Pi zero)
 <img src="https://github.com/ducati-748/uav_pollination/blob/b9de5848b2975f00ab818d14ece72b5a2f62d920/images/pi.jpg">
 FLight controller used Pixhawk
-<img src="">
+<img src="https://github.com/ducati-748/uav_pollination/blob/81d1e67641a2e505f54ac2ba9b96079bcad990b3/images/pixhawk.jpg">
 
+
+Raspberry pi libraries.
+-sudo apt-get install python-pip
+-sudo apt-get install python-dev
+-sudo pip install future
+-sudo apt-get install screen python-wxgtk4.0 python-lxml
+-sudo pip install pyserial
+-sudo pip install dronekit
+-sudo pip install MAVProxy
+
+Enable serial port communication
+sudo raspi-config
+Set serial port hardware to enabled
 
